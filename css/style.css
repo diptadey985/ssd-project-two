@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.container {
+    width: 1300px;
+    /* width: auto; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo {
+    flex-basis: 20%;
+    max-width: 20%;
+}
+
+nav {
+    flex-basis: 80%;
+    max-width: 80%;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    /* justify-content: flex-end; */
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 15px;
+    display: block;
+}
+
+.section-one {
+    background-image: url(../img/portfolio-item58.jpg);
+    padding-top: 350px;
+    padding-bottom: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+
+.section-two {
+    background-image: url(../img/portfolio-item59.jpg);
+    padding-top: 350px;
+    padding-bottom: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+
+.section-three {
+    background-image: url(../img/portfolio-item60.jpg);
+    padding-top: 350px;
+    padding-bottom: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+
+.section-four {
+    background-image: url(../img/portfolio-item61.jpg);
+    padding-top: 350px;
+    padding-bottom: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+
+.section-five {
+    background-image: url(../img/portfolio-item62.jpg);
+    padding-top: 350px;
+    padding-bottom: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+
+h1 {
+    font-size: 60px;
+    color: #fff;
+    background: #ff110096;
+    width: 650px;
+    margin: auto;
+    padding: 30px 0;
+    text-align: center;
+}
